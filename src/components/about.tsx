@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div>
         <h3 className="text-3xl font-bold mt-10 mb-10 text-center">Minhas principais skills:</h3>
-        <div className="flex flex-col xl:flex-row items-center gap-16 xl:gap-36 justify-center">
+        <div className="flex flex-col md:flex-row items-center gap-16 xl:gap-36 justify-center">
           <div className="flex flex-col">
             <Image className="rounded-full" width={100} src={reactLogo} alt="react logo" />
             <a className="text-2xl font-bold" href="#">React.Js</a>
