@@ -11,10 +11,10 @@ const Header = () => {
         </h1>
       </div>
       <nav className="flex gap-5">
-        <a className="text-sm xl:text-lg" href="#about">Sobre</a>
-        <a className="text-sm whitespace-nowrap xl:text-lg" href="#personalTastes">Gostos Pessoais</a>
-        <a className="text-sm xl:text-lg" href="#motivations">Motivações</a>
-        <a className="text-sm xl:text-lg" href="#contacts">Contato</a>
+        <a className="text-sm xl:text-lg py-1 px-2 rounded-2xl hover:bg-red-600" href="#about">Sobre</a>
+        <a className="text-sm py-1 px-2 whitespace-nowrap rounded-2xl xl:text-lg hover:bg-red-600" href="#personalTastes">Gostos Pessoais</a>
+        <a className="text-sm xl:text-lg py-1 px-2 rounded-2xl hover:bg-red-600" href="#motivations">Motivações</a>
+        <a className="text-sm xl:text-lg py-1 px-2 rounded-2xl hover:bg-red-600" href="#contacts">Contato</a>
       </nav>
     </div>
    );
